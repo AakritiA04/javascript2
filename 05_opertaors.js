@@ -24,5 +24,13 @@ console.log(c)
 
 //comaprison operators
 let com1=6;
-let com2=7;
+let com2= "6";
 console.log("com1==com2 is", com1==com2) 
+console.log("com1 != com2 is", com1 != com2)
+console.log("com1 === com2 is ", com1 === com2)
+console.log("com1 !== com2 is ", com1 !== com2)
+
+//logical operators
+let x = 5;
+let y=6;
+console.log(x>y && x==5)

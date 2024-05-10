@@ -4,5 +4,7 @@ let sum=0
 let n = prompt("enter the number")
 n= Number.parseInt(n);
 for(let i =0;i<n;i++){
-    console.log(i)
+    console.log(i+1)
+    sum+=i
 } 
+console.log("Sum of first"+n+"natural numbers")

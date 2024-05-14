@@ -19,6 +19,10 @@ let obj ={
     bye:44,
     shivalika:22
 }
+for (let b of 'AAkriti'){
+    console.log(b) 
+}
+
 
 for (let a in obj){
     console.log("Marks of "+a +" are " + obj[a])

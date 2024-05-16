@@ -1,7 +1,18 @@
+function onePlusAvg(x,y){
+    console.log("done")
+    return 1+(x+y)/2;
+    
+}
+//arrow function 
+const sum=(p,q)=>{
+    return p+q
+}
+ 
 let a = 1;
 let b = 2;
 let c = 3;
 
-console.log("Avg of a and b is ", (a+b)/2)
-console.log("Avg of b and c is ", (b+c)/2)
-console.log("Avg of a and c is ", (a+c)/2)
+console.log("one plus Avg of a and b is ", onePlusAvg(a,b))
+console.log("one plus Avg of b and c is ", onePlusAvg(b,c))
+console.log("one plus Avg of a and c is ", onePlusAvg(a,c))
+console.log(sum(9,10))

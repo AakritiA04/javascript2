@@ -37,7 +37,6 @@ console.log(typeof amount)
 let friend = "deepika"
 friend[3]='R'
 console.log(friend)
-
 //does not change as string is immutablle 
 
 

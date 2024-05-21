@@ -32,6 +32,7 @@ let amount = Number.parseInt(str2.slice("Please give me Rs ".length))
 console.log(amount)
 
 console.log(typeof amount)
+console.log(amount)
 
 //problem 5
 let friend = "deepika"

@@ -13,3 +13,4 @@ console.log(marks_class12[5])
 marks_class12[0]=99
 console.log(marks_class12[0])
 console.log(marks_class12[5])
+console.log(marks_class12[3])

@@ -11,3 +11,4 @@ console.log(marks_class12.length )
 marks_class12[5]=89
 console.log(marks_class12[5])
 //changing the value of  an array
+console.log(marks_class12[6])//this will be undefinedas the array 6th is n

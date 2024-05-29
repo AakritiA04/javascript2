@@ -10,8 +10,3 @@ console.log(marks_class12.length )
 marks_class12[5]=89
 console.log(marks_class12[5])
 //changing the value of  an array
-marks_class12[0]=99
-console.log(marks_class12[0])
-console.log(marks_class12[5])
-console.log(marks_class12[3] )
-console.log(marks_class12)

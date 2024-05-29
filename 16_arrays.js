@@ -5,6 +5,7 @@ console.log(marks_class12[1])
 console.log(marks_class12[2])
 console.log(marks_class12[3])
 console.log(marks_class12[4])
+//the below shows the length of marks or array here
 console.log(marks_class12.length )
 //addin g the new value the array
 marks_class12[5]=89

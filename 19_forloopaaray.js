@@ -16,3 +16,8 @@ console.log(arr)
 for(let i of num){
     console.log(i)
  }
+
+ //for.. in loop
+ for(let i of num){
+    console.log(i)
+ }

@@ -21,8 +21,13 @@ for(let i of num){
  for(let i of num){
     console.log(i)
  }
+ console.log("break")
 
  //higer order array methods 
  //map, filter, and reduce
  let arr3 =[1,3,344,5,55]
- console.log
+ let bb = arr3.map((value)=>{
+    console.log(value)
+    return value
+ })
+ console.log(bb)

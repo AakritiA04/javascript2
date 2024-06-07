@@ -31,3 +31,5 @@ for(let i of num){
     return value
  })
  console.log(bb)
+
+ //filter method

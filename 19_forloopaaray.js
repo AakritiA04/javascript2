@@ -25,11 +25,21 @@ for(let i of num){
 
  //higer order array methods 
  //map, filter, and reduce
+
+ //Array map method
+ //three argumensts in the method are used 
+ //i.e. value,index,array
  let arr3 =[1,3,344,5,55]
- let bb = arr3.map((value)=>{
-    console.log(value)
-    return value
+ let bb = arr3.map((value,index)=>{
+    console.log(value,index)
+    return value +index
  })
  console.log(bb)
+ console.log("/nbreak\n")
 
- //filter method
+ //Array filter method
+let arr2=[45,34,23,21,0,4,5,75]
+let a3 =arr2.filter((value)=>{
+   return value<10
+})
+console.log(a3)

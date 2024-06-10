@@ -43,3 +43,11 @@ let a3 =arr2.filter((value)=>{
    return value<10
 })
 console.log(a3)
+console.log("nothing")
+
+//reduce method
+let arr4 = [1,2,3,5,2,1]
+let newarr = arr4.reduce((h1,h2)=>{
+   return h1+h2
+})
+console.log(newarr)

@@ -29,7 +29,18 @@ function Divisible10(x){
 let n = arr2.filter(Divisible10)
 console.log(n)
 
-
+//practice problem 5
+// let arr5 = [1,2,3,4,5,5,6,7]
+// let nl = arr.map((x)=>{
+//     return x*x
+// })
+// console.log(nl)
+//practice problem 5
+let arr5 = [1,2,3,4,5,5,6,7]
+let nl = arr5.reduce((x1,x2)=>{
+ return x1 * x2
+})
+console.log(nl)
 
 
 

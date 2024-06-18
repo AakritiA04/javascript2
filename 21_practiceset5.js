@@ -43,6 +43,7 @@ let nl = arr5.reduce((x1,x2)=>{
 console.log(n1)
 console.log(n1)
 console.log(n)
+console.log(arr)
 
 
 

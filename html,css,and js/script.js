@@ -5,3 +5,4 @@ console.assert(5>55)//gives a red warning if the given assertion or condiotion i
 console.table()//creates atable out of objects provided
 console.clear()//clears the console window 
 console.warn()//gives warning to the window user
+console.log("hello")//for getting output on console

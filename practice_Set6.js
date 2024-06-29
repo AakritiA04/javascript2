@@ -23,4 +23,4 @@
 
 //Ques 2
 //in ques 1 use the user if he wants to see the program again'
-confirm("")
+confirm("wheter you want  this to show up")

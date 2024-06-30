@@ -45,3 +45,8 @@ else{
    alert("the number is less than 4")
 
 }
+//ques 5 
+//make the color of background change using the entered color in prompt
+
+let color = prompt("enter the page background color")
+document.body.style.background= color;

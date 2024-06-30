@@ -1,10 +1,11 @@
 //javsscript in general pradtoce
  //write a program using prompt functuon to  take input of age a valeue from the user and use alert to tell him if he can drive
- let age = prompt("enter the age of the person:")
- age = Number.parseInt(age)
+//  let age = prompt("enter the age of the person:")
+//  age = Number.parseInt(age)
  let runAgain=true;
  while(runAgain){
- 
+   let age = prompt("enter the age of the person:")
+   age = Number.parseInt(age)
  if(age<18){
     alert("you cannot drive")
  }
@@ -23,4 +24,8 @@
 
 //Ques 2
 //in ques 1 use the user if he wants to see the program again'
-confirm("wheter you want  this to show up")
+// confirm("wheter you want  this to show upt")
+
+//ques 3
+//in the previous question use console.error to show if not drive is said
+ 

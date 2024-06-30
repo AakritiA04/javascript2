@@ -6,6 +6,10 @@
  while(runAgain){
    let age = prompt("enter the age of the person:")
    age = Number.parseInt(age)
+   if(age<0){
+      console.error("please enter a correct age")
+      break;
+   }
  if(age<18){
     alert("you cannot drive")
  }
@@ -29,3 +33,15 @@
 //ques 3
 //in the previous question use console.error to show if not drive is said
  
+
+//ques4
+//write a program to change the url to google .vom if the usr entera number greater than 4\
+let number = prompt("enter the number")
+number = Number.parseInt(number)
+if(number>4){
+   location.href= "https://google.com"
+}
+else{
+   alert("the number is less than 4")
+
+}

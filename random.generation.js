@@ -25,3 +25,5 @@ function randomString(length){
         return result;
 }
 console.log(randomString(10))
+
+//RANDOM ARRAY ELEMENTS

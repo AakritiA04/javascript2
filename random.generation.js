@@ -27,3 +27,4 @@ function randomString(length){
 console.log(randomString(10))
 
 //RANDOM ARRAY ELEMENTS
+console.log("out")

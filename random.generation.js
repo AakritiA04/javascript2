@@ -27,3 +27,6 @@ function randomString(length){
 console.log(randomString(10))
 
 //RANDOM ARRAY ELEMENT
+let array = [1,2,3,4,5]
+let randomElement = array[Math.floor(Math.random()* array.length)];
+console.log(randomElement)

@@ -30,3 +30,4 @@ console.log(randomString(10))
 let array = [1,2,3,4,5]
 let randomElement = array[Math.floor(Math.random()* array.length)];
 console.log(randomElement)
+//other random rgenreations

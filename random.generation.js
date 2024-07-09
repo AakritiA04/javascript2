@@ -30,4 +30,15 @@ console.log(randomString(10))
 let array = [1,2,3,4,5]
 let randomElement = array[Math.floor(Math.random()* array.length)];
 console.log(randomElement)
-//other random rgenreations
+
+
+//RANDOM COLOR GENERATION
+
+function randomColor(){
+    let r = Math.floor(Math.random()*256);
+    let g = Math.floor(Math.random()*256);
+    let b = Math.floor(Math.random()*256);
+    return `rgb(${r},${g},${b})`;
+}
+console.log(randomColor())
+

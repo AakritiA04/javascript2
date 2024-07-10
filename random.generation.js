@@ -42,3 +42,6 @@ function randomColor(){
 }
 console.log(randomColor())
 
+//RANDOM PASSWORD GNERATEION
+
+

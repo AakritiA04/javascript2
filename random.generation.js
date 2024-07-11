@@ -55,6 +55,7 @@ function randomPassword(length){
 }
 console.log(randomPassword(12));
 
+console.log("out")
 
 
 

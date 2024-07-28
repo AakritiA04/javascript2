@@ -8,3 +8,7 @@ let arr= Array.from(document.body.chileNodes)
 
 //sibling and their parents 
 //<html> is the parent of <body and <head> tag
+ca = document.body.firstChild;
+console.log(a.parentNode)
+console.log(a.parentElement);
+console.log(a.firstChild.nextSibling)

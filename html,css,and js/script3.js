@@ -1,5 +1,5 @@
 //element only navigation
-const changeBidyRed = ( )=> {
+const changeBgRed = ( )=> {
     document.body.firstElementChild.style.background="red"
 }
 let b= document.body

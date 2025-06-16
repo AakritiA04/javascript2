@@ -19,3 +19,14 @@
 
 //practice again after arrays in loops
 //q= for the given array with marks of students->[85,97,44,37,76,60] find the avergae of marks of entire class
+
+// let marks=[85,97,44,37,76,60];
+// let sum = 0;
+// for(let val of marks){
+//     sum=sum+val;
+
+
+// }
+// console.log(sum)
+// let avg=sum/(marks.length);
+// console.log(avg)

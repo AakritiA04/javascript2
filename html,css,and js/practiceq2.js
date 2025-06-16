@@ -12,7 +12,10 @@
 //practice question after loops
 // Prompt the user to enter their full name . generate a username fot them basd on input . Start username with @ , followed by their full name and ending with the fullname length
 
-let fullname= prompt("enter your name");
-let lengthing = fullname.length;
+// let fullname= prompt("enter your name");
+// let lengthing = fullname.length;
 
-console.log(`The username of the person is @${fullname}${lengthing}`)
+// console.log(`The username of the person is @${fullname}${lengthing}`)
+
+//practice again after arrays in loops
+//q= for the given array with marks of students->[85,97,44,37,76,60] find the avergae of marks of entire class

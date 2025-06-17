@@ -30,3 +30,8 @@
 // console.log(sum)
 // let avg=sum/(marks.length);
 // console.log(avg)
+
+// //q-3
+// for a given array with prices of 5 items . all items have an offer od 10% off on them.
+// change the array to store final offer after applyunh it .a
+

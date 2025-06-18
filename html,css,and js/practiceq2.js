@@ -36,4 +36,3 @@
 // change the array to store final offer after applyunh it .a
 
 //
-// new place new beginings what to do pls tell

@@ -10,3 +10,10 @@ companies.splice(2,1,"Ola");
 function myFucntion(){
     console.log("hello this is my function");
 }
+
+function sum(a, b){
+    console.log(a+b);//we can even just return our input here using return keyword..but return can only reurn one value
+    
+}
+sum(2,3);
+

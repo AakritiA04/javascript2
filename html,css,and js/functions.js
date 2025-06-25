@@ -17,3 +17,8 @@ function sum(a, b){
 }
 sum(2,3);
 
+//arrow functions
+const arrowSum = (a,b)=>{
+    console.log(a+b);
+}
+

@@ -38,3 +38,4 @@ function returnVowels(msg) {
   }
   console.log(count);
 }
+console.log("out");

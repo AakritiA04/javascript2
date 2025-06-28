@@ -42,3 +42,15 @@
 
 
 //using for each method and understanding how call bcal works
+let arr=[1,3,4,5,6,78,8];
+
+arr.forEach((val)=>{
+  console.log(val);
+});
+
+//for a  given array of numbers print the square of each value using forEach loop
+let arrarytoSq=[1,4,66,78,894,2,33,44,5];
+
+arrarytoSq.forEach((value)=>{
+  console.log(value*value);
+}); 

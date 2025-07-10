@@ -46,4 +46,12 @@ newButton.innerText="click me";
 newButton.style.backgroundColor="red";
 newButton.style.color="white";
 document.querySelector("body").prepend(newButton)
-// body.prepend(newButton);
+// 
+
+//q2- create a <p> tag in html and give it a class and some styling.
+//now create a new class in css and try to appedn this class to the <p> element
+ let para= document.querySelector("p");
+ para.getAttribute("class");
+ para.setAttribute("class", "newClass");
+ // this solves by totally overwriting the content of the attribute
+ //so we use

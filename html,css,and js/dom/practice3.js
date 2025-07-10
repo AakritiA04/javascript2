@@ -24,10 +24,26 @@
 //     idx++;
 // }
 
-let newButton= document.createElement("button");
-newButton.innerText="click me";
-console.log(newButton);
-//adding to the screen
-let div= document.querySelector("div");
-div.append(newButton);
+// let newButton= document.createElement("button");
+// newButton.innerText="click me";
+// console.log(newButton);
+// //adding to the screen
+// let div= document.querySelector("div");
+// div.append(newButton);
 
+
+//insertion and deletion in line pls
+// let newHeading=document.createElement("h1");
+// newHeading.innerHTML="<i>Hi, I am new</i>"
+
+// document.querySelector("body").prepend(newHeading);
+
+//practice after inseryion and deletion of nodes and elements
+//q-create a new button element. Give it a text "click me", background color of red and text color of white
+// insert the buttion as the first element inside the body tag
+let newButton=document.createElement("button");
+newButton.innerText="click me";
+newButton.style.backgroundColor="red";
+newButton.style.color="white";
+document.querySelector("body").prepend(newButton)
+// body.prepend(newButton);

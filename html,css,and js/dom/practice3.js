@@ -61,15 +61,32 @@
 //q create a toggle button that changes the screen to dark-mode when clikced and light mode whenc clicked again
 let modeBtn= document.querySelector("#mode");
 let currMode="light";
+// modeBtn.addEventListener("click", ()=>{
+//     // console.log("you are trying to change mode")
+//     if(currMode==="light"){
+//         currMode="dark";
+//         document.querySelector("body").style.backgroundColor="black";
+
+//     }else{
+//         currMode="light";
+//        document.querySelector("body").style.backgroundColor="white";
+
+//     }
+//     console.log(currMode);
+// })
+let body=document.querySelector("body")
+
 modeBtn.addEventListener("click", ()=>{
     // console.log("you are trying to change mode")
     if(currMode==="light"){
         currMode="dark";
-        document.querySelector("body").style.backgroundColor="black";
+        body.classList.add("dark");
+        body.classList.remove("light");
 
     }else{
         currMode="light";
-       document.querySelector("body").style.backgroundColor="white";
+      body.classList.add("light");
+      body.classList.remove("dark");
 
     }
     console.log(currMode);

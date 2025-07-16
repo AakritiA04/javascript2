@@ -2,6 +2,10 @@ let userScore=0;
 let compscore=0;
 
 const choices=document.querySelectorAll(".choice");
+const msg=document.querySelector("#msg");
+const userScorePara= document.querySelector("#user-score");
+const compScorePara=document.querySelector("#comp-score");
+
 
 const getCompChoice=()=>{
     //rock, paper, scissor
@@ -17,9 +21,15 @@ const drawGame=()=>{
 
 const showWinner=(userWin)=>{
     if(userWin){
+        userScore++;
+        userScorePara.innerText=userScore;
         console.log("you win");
+        msg.innerText="you win!!";
     }else{
+        compscore++;
+        compScorePara.innerText=compscore;
         console.log("u loose");
+        msg.innerText="you loose";
     }
 }
 
@@ -32,6 +42,7 @@ const playGame=(userChoice)=>{
     if(userChoice===compChoice){
         //draw game;
         drawGame();
+        msg.innerText="Draw, play again";
 
     }else{
         let userWin=true;

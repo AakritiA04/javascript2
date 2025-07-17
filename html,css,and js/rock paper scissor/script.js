@@ -68,3 +68,5 @@ choices.forEach((choice)=>{
 
     });
 });
+
+console.log(choice);

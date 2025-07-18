@@ -68,3 +68,4 @@ choices.forEach((choice)=>{
 
     });
 });
+console.log(choices);

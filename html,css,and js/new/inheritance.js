@@ -28,7 +28,7 @@ class person{
 class Engineer extends person{
     constructor(branch){
         super();//this is to invoke the parent class constructor
-        this.branch=this.branch;
+        this.branch= branch;
     }
     work(){
         console.log("solve problems, build something");

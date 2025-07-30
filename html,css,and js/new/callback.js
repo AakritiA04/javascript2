@@ -54,18 +54,61 @@
 //making anew fcuntion:-
 //lest suppose phele success== reolve hora hai
 
-const getPromise=()=>{
-   return new Promise((resolve,reject)=>{
-        console.log("I am promise");
-        resolve("succes");
+// const getPromise=()=>{
+//    return new Promise((resolve,reject)=>{
+//         console.log("I am promise");
+//         resolve("succes");
 
-    })
+//     })
+// }
+
+// let promise=getPromise();
+// promise.then((res)=>{
+//     console.log("promise fulfilled",res);//this is never printed if the reection of promise is there
+// })
+// promise.catch((err)=>{
+//     console.log("error is caught",err);//tghis can never be exceuted when the prpomise is resolve d
+// })
+
+//promise chains
+function asynFunction1(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("some data1");
+            resolve("success");
+        },4000)
+    });
 }
 
-let promise=getPromise();
-promise.then((res)=>{
-    console.log("promise fulfilled",res);//this is never printed if the reection of promise is there
-})
-promise.catch((err)=>{
-    console.log("error is caught",err);//tghis can never be exceuted when the prpomise is resolve d
-})
+function asynFunction2(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("some data2");
+            resolve("success");
+        },4000)
+    });
+}
+console.log("fetching data1....");
+let p1= asynFunction1();
+p1.then((res)=>{
+    console.log(res);
+    console.log("fethcing data 2...");
+    let p2=asynFunction2();
+    p2.then((res)=>{
+        console.log(res)
+    })
+});
+
+// console.log("fetching data2....");
+// let p2= asynFunction2();
+// p2.then((res)=>{
+//     console.log(res);
+// });
+//we want to fetch data 1 and then data 2 not simultanouelsy both of them
+//but here we think data 1 is fethced->return promise 1->resolve
+//then dtaa 2->return promise2
+//acu=tually..we dont wait for the promise to get resolved
+//so both data 1 and 2 is fethced sath me and get them both sath me
+
+//so we now do chaining in .then()
+
